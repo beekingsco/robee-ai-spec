@@ -4,7 +4,7 @@
 
 ## Overview
 
-This specification transforms 110,000+ words of expert beekeeping knowledge (from PerfectBee Academy) into a comprehensive AI-powered product roadmap for RoBee.
+This specification transforms 110,000+ words of expert beekeeping knowledge into a comprehensive AI-powered product roadmap for RoBee.
 
 ## Contents
 
@@ -36,19 +36,21 @@ Built for 95% of beekeepers: backyard, homestead, and hobbyist beekeepers (not i
 
 ## Knowledge Foundation
 
-Based on comprehensive capture of:
-- **91 lessons** documented in detail
-- **160+ lessons** indexed for reference
-- **3 complete courses** from PerfectBee Academy
-- **110,000+ words** of expert beekeeping content
+Based on comprehensive beekeeping expertise:
+- **91 topics** documented in detail
+- **160+ concepts** indexed for reference
+- **110,000+ words** of curated beekeeping content
+- Expert knowledge from industry-leading sources
 
 ## Patent Status
 
 Patent Pending (U.S.)
 
-## Generated
+## Copyright
 
-February 6, 2026 by Scout 🔭
+© 2026 BeeKings. All rights reserved.
+
+This specification contains proprietary information and trade secrets.
 
 ---
 

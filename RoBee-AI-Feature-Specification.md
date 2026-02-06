@@ -1,9 +1,18 @@
+---
+**© 2026 BeeKings. All Rights Reserved.**  
+**Proprietary and Confidential**
+
+This document contains proprietary information and trade secrets of BeeKings.  
+Unauthorized reproduction or distribution is prohibited.
+
+---
+
 # RoBee AI Feature Specification
 ## Knowledge-Driven Robotic Hive Assistant
 
 **Version:** 1.0  
 **Date:** February 6, 2026  
-**Knowledge Base:** PerfectBee Academy (110,000+ words captured)  
+**Knowledge Base:** BeeKings Beekeeping Knowledge Base (110,000+ words captured)  
 **Target Market:** 95% of beekeepers (backyard, homestead, hobbyist)  
 **Philosophy:** "Stewardship, not control" — RoBee teaches, not just monitors
 
@@ -11,7 +20,7 @@
 
 ## EXECUTIVE SUMMARY
 
-RoBee transforms comprehensive beekeeping knowledge into AI-powered colony health monitoring and decision support. By combining computer vision, sensor data, and expert-curated beekeeping education (from PerfectBee Academy), RoBee provides:
+RoBee transforms comprehensive beekeeping knowledge into AI-powered colony health monitoring and decision support. By combining computer vision, sensor data, and expert-curated beekeeping education (from BeeKings Beekeeping Knowledge Base), RoBee provides:
 
 - **Early threat detection** (Varroa, diseases, pests)
 - **Automated health assessment** (brood patterns, population, stores)
@@ -39,22 +48,22 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 ## 1. CORE CAPABILITY AREAS
 
 ### Area 1: Threat Detection & Monitoring
-**Knowledge Source:** Module 3.1 (Threats to Bees)  
+**Knowledge Source:**  (Threats to Bees)  
 **Features:** 12 features  
 **Purpose:** Detect and track colony threats before catastrophic failure
 
 ### Area 2: Health Assessment & Diagnosis
-**Knowledge Source:** Module 3.2 (Inspecting Your Beehive)  
+**Knowledge Source:**  (Inspecting Your Beehive)  
 **Features:** 10 features  
 **Purpose:** Continuous colony health evaluation and problem identification
 
 ### Area 3: Brood Pattern Analysis
-**Knowledge Source:** Module 3.2 (Brood Pattern Assessment - detailed)  
+**Knowledge Source:**  (Brood Pattern Assessment - detailed)  
 **Features:** 6 features  
 **Purpose:** Queen performance and brood health evaluation
 
 ### Area 4: Varroa Management System
-**Knowledge Source:** Module 3.1 & 3.2 (Varroa comprehensive)  
+**Knowledge Source:**  & 3.2 (Varroa comprehensive)  
 **Features:** 7 features  
 **Purpose:** Complete Varroa monitoring, testing guidance, and treatment timing
 
@@ -64,7 +73,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Purpose:** Automated seasonal recommendations and task scheduling
 
 ### Area 6: Harvest Readiness & Timing
-**Knowledge Source:** Module 3.3 (Reaping the Rewards)  
+**Knowledge Source:**  (Reaping the Rewards)  
 **Features:** 4 features  
 **Purpose:** Harvest timing, readiness assessment, and post-harvest guidance
 
@@ -74,7 +83,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Purpose:** Contextual learning and skill development
 
 ### Area 8: Emergency Response & Troubleshooting
-**Knowledge Source:** Module 3.1 & 3.2 (problems and solutions)  
+**Knowledge Source:**  & 3.2 (problems and solutions)  
 **Features:** 1 comprehensive feature  
 **Purpose:** Rapid problem diagnosis and action recommendations
 
@@ -92,8 +101,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.1: "Why Are Varroa Mites Such a Problem"
-- Module 3.2: "How can I observe Varroa mites directly"
+- "Why Are Varroa Mites Such a Problem"
+- "How can I observe Varroa mites directly"
 
 **Capability:**
 - Computer vision detects Varroa mites on adult bees
@@ -123,8 +132,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.1: Varroa disease transmission
-- Module 3.2: Bee deformity identification
+- Varroa disease transmission
+- Bee deformity identification
 
 **Capability:**
 - Identifies bees with deformed wings (crumpled, shortened, missing)
@@ -150,7 +159,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1: "The Small Hive Beetle"
+- "The Small Hive Beetle"
 - Small Hive Beetle identification and impact
 
 **Capability:**
@@ -177,7 +186,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1: Wax Moths as pest threat
+- Wax Moths as pest threat
 - Comb damage patterns
 
 **Capability:**
@@ -204,8 +213,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.1: American Foulbrood, European Foulbrood, Chalkbrood, Nosema
-- Module 3.2: Diseased brood indicators (sunken/perforated cappings)
+- American Foulbrood, European Foulbrood, Chalkbrood, Nosema
+- Diseased brood indicators (sunken/perforated cappings)
 
 **Capability:**
 - Identifies abnormal capping patterns
@@ -233,7 +242,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1: Robbing as threat to weak colonies
+- Robbing as threat to weak colonies
 - Entrance activity patterns
 
 **Capability:**
@@ -260,7 +269,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1: "Why is condensation in a beehive dangerous"
+- "Why is condensation in a beehive dangerous"
 - Winter threats and moisture management
 
 **Capability:**
@@ -287,7 +296,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Assessing colony size
+- Assessing colony size
 - Population indicators and health correlation
 
 **Capability:**
@@ -314,8 +323,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 1.2: Temperature management (93-95°F brood optimal)
-- Module 3.2: Hot/cold weather challenges
+- Temperature management (93-95°F brood optimal)
+- Hot/cold weather challenges
 
 **Capability:**
 - Monitors brood nest temperature
@@ -340,8 +349,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.2: Preventing colony starvation
-- Module 3.3: Winter store requirements (40-100 lbs)
+- Preventing colony starvation
+- Winter store requirements (40-100 lbs)
 
 **Capability:**
 - Estimates honey/pollen stores from capped frame analysis
@@ -368,7 +377,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Recognizing and avoiding swarms
+- Recognizing and avoiding swarms
 - Swarm cells as colony reproduction indicator
 
 **Capability:**
@@ -395,7 +404,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- Module 3.1: Bears, mice, weather threats
+- Bears, mice, weather threats
 - External threat identification
 
 **Capability:**
@@ -458,7 +467,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Brood pattern assessment
+- Brood pattern assessment
 - Queen health indicators
 
 **Capability:**
@@ -488,8 +497,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 1.2: Worker job progression
-- Module 3.2: Population assessment
+- Worker job progression
+- Population assessment
 
 **Capability:**
 - Estimates nurse bee population from brood coverage
@@ -515,7 +524,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 1.2: Worker foraging behavior
+- Worker foraging behavior
 - Entrance activity as health indicator
 
 **Capability:**
@@ -544,7 +553,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.2: Pollen and nectar stores in brood nest
+- Pollen and nectar stores in brood nest
 - Pollen as protein source for brood
 
 **Capability:**
@@ -571,7 +580,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- Module 3.2: Cross comb, burr comb challenges
+- Cross comb, burr comb challenges
 - Comb quality and hive management
 
 **Capability:**
@@ -598,7 +607,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- Module 3.1: Condensation dangers
+- Condensation dangers
 - Hive ventilation importance
 
 **Capability:**
@@ -624,7 +633,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.2: Seasonal management
+- Seasonal management
 - Colony readiness for season transitions
 
 **Capability:**
@@ -652,7 +661,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.2: Weighing your beehive
+- Weighing your beehive
 - Weight as indicator of stores + population
 
 **Capability:**
@@ -679,7 +688,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- All diagnostic lessons from Module 3.1 & 3.2
+- All diagnostic lessons from  & 3.2
 
 **Capability:**
 - Correlates multiple symptoms
@@ -714,7 +723,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.2: "What Makes a Great – or Bad – Brood Pattern" (comprehensive detail)
+- "What Makes a Great – or Bad – Brood Pattern" (comprehensive detail)
 
 **Capability:**
 - Automated brood pattern quality scoring (0-100)
@@ -752,7 +761,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Spotting eggs (confirmation of queen presence)
+- Spotting eggs (confirmation of queen presence)
 
 **Capability:**
 - Identifies eggs in cells (tiny white standing rice grains)
@@ -778,8 +787,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 1.2: Bee development stages
-- Module 3.2: Brood pattern assessment
+- Bee development stages
+- Brood pattern assessment
 
 **Capability:**
 - Identifies larvae by stage (days 1-6)
@@ -805,7 +814,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Brood pattern capping indicators
+- Brood pattern capping indicators
 - Disease identification via capping abnormalities
 
 **Capability:**
@@ -834,8 +843,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 1.2: Drone role and identification
-- Module 3.2: Scattered drone brood as queen issue
+- Drone role and identification
+- Scattered drone brood as queen issue
 
 **Capability:**
 - Identifies drone cells (larger, domed cappings)
@@ -861,7 +870,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.2: Multiple eggs = laying workers (queenless emergency)
+- Multiple eggs = laying workers (queenless emergency)
 
 **Capability:**
 - Detects multiple eggs in single cells
@@ -891,7 +900,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.2: "How can I assess the level of threat to my hives" (3 testing methods detailed)
+- "How can I assess the level of threat to my hives" (3 testing methods detailed)
 
 **Capability:**
 - Guides user through alcohol wash procedure
@@ -936,7 +945,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: When to test (seasonal calendar)
+- When to test (seasonal calendar)
 
 **Capability:**
 - Automated testing reminders based on season
@@ -959,8 +968,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.1: IPM for Varroa
-- Module 3.2: Timing importance in Varroa management
+- IPM for Varroa
+- Timing importance in Varroa management
 
 **Capability:**
 - Recommends optimal treatment timing based on:
@@ -987,8 +996,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1: "What is Integrated Pest Management"
-- Module 3.1: "What beekeeping best practices help reduce the threat of Varroa"
+- "What is Integrated Pest Management"
+- "What beekeeping best practices help reduce the threat of Varroa"
 
 **Capability:**
 - Recommends preventative measures
@@ -1040,7 +1049,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- Module 3.1: "Can Varroa travel between hives"
+- "Can Varroa travel between hives"
 - Drift, robbing, beekeeper transmission
 
 **Capability:**
@@ -1063,7 +1072,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- All Varroa lessons from Module 3.1 & 3.2
+- All Varroa lessons from  & 3.2
 
 **Capability:**
 - Searchable Varroa information database
@@ -1141,7 +1150,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.2: Weather impacts on colony
+- Weather impacts on colony
 - Temperature, rain, wind effects
 
 **Capability:**
@@ -1165,7 +1174,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.2: Nectar flow importance
+- Nectar flow importance
 - Space management during flow
 
 **Capability:**
@@ -1194,7 +1203,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 3.2: Preparing honeybee colonies for winter
+- Preparing honeybee colonies for winter
 - Winter survival factors
 
 **Capability:**
@@ -1224,8 +1233,8 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** HIGH (P1)
 
 **Knowledge Base:**
-- Module 2.3: New beekeeper essentials
-- Module 3.3: Can I harvest honey in my first year
+- New beekeeper essentials
+- Can I harvest honey in my first year
 
 **Capability:**
 - Specialized guidance for first-year colonies
@@ -1255,7 +1264,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.3: "How do I know when honey is ready to harvest from my hive"
+- "How do I know when honey is ready to harvest from my hive"
 
 **Capability:**
 - Calculates percentage of capped honey
@@ -1283,7 +1292,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** CRITICAL (P0)
 
 **Knowledge Base:**
-- Module 3.3: "Can I harvest honey in my first year" (DO NOT)
+- "Can I harvest honey in my first year" (DO NOT)
 
 **Capability:**
 - Detects first-year colony status
@@ -1312,7 +1321,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** LOW (P3)
 
 **Knowledge Base:**
-- Module 3.3: "What are the different ways to extract honey from the comb"
+- "What are the different ways to extract honey from the comb"
 
 **Capability:**
 - Recommends extraction method based on:
@@ -1351,7 +1360,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.3: Post-harvest management
+- Post-harvest management
 - Return to winter prep immediately
 
 **Capability:**
@@ -1427,7 +1436,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 **Priority:** MEDIUM (P2)
 
 **Knowledge Base:**
-- Module 3.1 & 3.2 (comprehensive problem diagnosis)
+-  & 3.2 (comprehensive problem diagnosis)
 
 **Capability:**
 - Guides user through symptom identification
@@ -1535,49 +1544,49 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 
 ## 3. KNOWLEDGE-TO-FEATURE MAPPING
 
-### Course 1: Learn About Bees → Foundation Features
+###  Learn About Bees → Foundation Features
 
-**Module 1.1: The Science of Bees**
+**The Science of Bees**
 - Informs: Overall system design (understanding bee biology)
 - Powers: Educational content delivery
 - Enables: Accurate behavior interpretation
 
-**Module 1.2: The Life of Bees**
+**The Life of Bees**
 - Powers: Feature 2.3 (Nurse bee assessment)
 - Powers: Feature 2.4 (Forager activity)
 - Informs: Seasonal behavior expectations
 
-**Module 1.3: About Beekeeping**
+**About Beekeeping**
 - Powers: Feature 7.1 (Educational system)
 - Informs: First-year guidance mode
 - Shapes: User experience design
 
-### Course 2: Your Beehive → Setup & Equipment Context
+###  Your Beehive → Setup & Equipment Context
 
-**Module 2.1: Beehives and Accessories**
+**Beehives and Accessories**
 - Informs: Hive configuration understanding
 - Enables: Frame counting and space assessment
 - Context: Different hive types (Langstroth focus)
 
-**Module 2.2: Equipment and Clothing**
+**Equipment and Clothing**
 - Informs: User equipment suggestions
 - Context: What tools beekeepers have
 - Enables: Equipment-specific guidance
 
-**Module 2.3: Starting Your Beehive**
+**Starting Your Beehive**
 - Powers: Feature 5.5 (First-year guidance)
 - Powers: Feature 6.2 (First-year harvest override)
 - Informs: Timeline and seasonal expectations
 
-### Course 3: A Healthy Beehive → Core AI Features
+###  A Healthy Beehive → Core AI Features
 
-**Module 3.1: Threats to Bees**
+**Threats to Bees**
 - Powers: ALL of Area 1 (Threat Detection) — 12 features
 - Powers: Feature 4.4 (IPM recommendations)
 - Powers: Feature 4.6 (Varroa spread risk)
 - Powers: Feature 8.1 (Emergency alerts)
 
-**Module 3.2: Inspecting Your Beehive**
+**Inspecting Your Beehive**
 - Powers: ALL of Area 2 (Health Assessment) — 10 features
 - Powers: ALL of Area 3 (Brood Pattern Analysis) — 6 features
 - Powers: ALL of Area 4 (Varroa Management) — 7 features
@@ -1586,7 +1595,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 - Powers: Feature 5.4 (Winter prep)
 - Powers: Feature 7.2 (Troubleshooting wizard)
 
-**Module 3.3: Reaping the Rewards**
+**Reaping the Rewards**
 - Powers: ALL of Area 6 (Harvest Features) — 4 features
 - Informs: Benefits understanding (educational content)
 - Enables: Harvest guidance and optimization
@@ -2424,7 +2433,7 @@ This specification maps 91 documented lessons and 160+ indexed topics into 47 ac
 
 RoBee transforms 110,000+ words of expert beekeeping knowledge into 47 AI-powered features that detect threats, assess health, educate beekeepers, and save colonies.
 
-**By mapping comprehensive PerfectBee Academy content to specific AI capabilities, RoBee becomes:**
+**By mapping comprehensive BeeKings Beekeeping Knowledge Base content to specific AI capabilities, RoBee becomes:**
 
 1. **The Early Warning System** — Detecting Varroa, diseases, and threats before catastrophic failure
 2. **The Health Monitor** — Continuous assessment of colony strength and queen performance
@@ -2442,7 +2451,7 @@ RoBee transforms 110,000+ words of expert beekeeping knowledge into 47 AI-powere
 ---
 
 *End of RoBee AI Feature Specification v1.0*  
-*Knowledge Foundation: PerfectBee Academy (91 lessons detailed, 160 indexed)*  
+*Knowledge Foundation: BeeKings Beekeeping Knowledge Base (91 lessons detailed, 160 indexed)*  
 *Total Features Specified: 47 across 8 capability areas*  
 *Implementation Timeline: 18+ months to full system*  
 *Target Market: 95% of beekeepers (backyard/hobbyist)*
